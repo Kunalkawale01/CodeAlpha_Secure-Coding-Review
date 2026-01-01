@@ -50,3 +50,7 @@ Open your browser and go to:
 
     http://127.0.0.1:5000
 
+step 5:- open anathor terminal
+
+    curl -X POST http://127.0.0.1:5000/login \
+    -d "username=admin&password=admin"
